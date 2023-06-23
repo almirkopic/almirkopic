@@ -391,7 +391,25 @@ body {
 	display: flex;
 	justify-content: left;
 	margin-bottom: 16px;
-}}
+}
 
+.home-page {
+	margin-top: 150px;
+	margin-bottom: 220px;
+}
+
+.projecttitle {
+font-size: 1.4rem;
+}
+.abouttitle p{
+	font-size: 1.4rem;
+}
+#projects {
+	margin-right: 8px;
+}
+#about{
+	margin-right: 8px;
+}
+}
 
 
