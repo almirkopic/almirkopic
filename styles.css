@@ -37,58 +37,46 @@ body {
     }
   }
 
-  .nav {
-	background-color: black;
-	height: 6vh;
-	align-items: center;
-	justify-content: flex-end;
-	overflow: auto;
-	margin-right: 0px;
-}
+  .navbar-nav .nav-link {
+    color: rgb(241, 10, 184);
+    font-size: 1.1rem;
+    margin-right: 25px;
 
-.nav-item a:hover,
-.nav-item a.active {
-	-webkit-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	color: rgb(0, 255, 213);;
-	border: 1px solid rgb(0, 255, 213);
-	padding: 8px;
-}
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: rgb(0, 255, 213);
+  }
 
-.nav-item ul {
-	display: flex;
-	list-style: none;
-	align-items: center;
-	border: 0px;
-	margin: 0px;
-	height: 6vh;
-	width: 100%;
-	justify-content: center;
-	gap: 50px;
-}
 
-.nav-item > ul a {
-	color: rgb(241, 10, 184);
-	text-decoration: none;
-	font-size: 1rem;
-	font-weight: bold;
-}
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: rgb(241, 10, 184);
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: rgb(0, 255, 213);
+    background-color: black;
 
-#navbar {
-	position: sticky;
-	top: 0;
-	background-color: black;
-	transition: opacity 0.3s ease-in-out;
-	opacity: 0;
-	padding-right: 5px;
-}
+  }
+  .navbar-dark, .navbar[data-bs-theme=dark] {
+	--bs-navbar-active-color: rgb(0, 255, 213);
+  }
 
-#navbar.visible {
-	opacity: 1;
-	z-index: 4;
-}
+  #navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(128, 128, 128);
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding-right: 5px;
+   }
+    
+    #navbar.visible {
+    opacity: 1;
+    z-index: 4;
+    }
 
+  
 .container {
 	max-width: 1200px;
     margin: 0 auto;
@@ -157,7 +145,7 @@ body {
 }
 
 .button1{
-	background-color: rgb(0, 255, 213);;
+	background-color: rgb(0, 255, 213);
 	border: 0;
 	padding:8px;
 	font-weight:550;
@@ -173,7 +161,7 @@ body {
 
 .button2{
 	background-color: transparent;
-	color: rgb(0, 255, 213);;
+	color: rgb(0, 255, 213);
 	border:solid 1px;
 	padding: 7px;
 	font-size: 0.9rem;
@@ -393,50 +381,17 @@ body {
 
 
 
-
-
-
-  
-
-
-
- 
-
-  
-
-         
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 200px) and (max-width: 400px) {
+	.contact-list>ul li {
+	display: flex;
+	justify-content: left;
+	}
 	
-
-
+.contact-title {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 16px;
+}}
 
 
 
