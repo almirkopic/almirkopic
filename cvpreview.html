@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+<style>
+
+.container {
+	max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+#download-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  padding: 10px;
+  background-color: rgb(0, 255, 213);
+  border-radius: 30px;
+  font-weight: bold;
+  width: 140px;
+}
+
+
+#fly-button {
+	position: fixed;
+	font-weight: bold;
+	bottom: 20px;
+	right: 20px;
+	width: 140px;
+	height: 40px;
+	background-color: rgb(0, 255, 213);
+	color: rgb(5, 5, 5);
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+  font-size: 1rem;
+
+	}
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+	font-family: Sans-serif;
+  }
+
+ #stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .blinking-star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    animation: blinking 2s infinite;
+  }
+  
+  @keyframes blinking {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+.CV-preview{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .CV-preview img{
+  max-width: 100%;
+  height: auto;
+  }
+
+  #fly-button a{
+    text-decoration: none;
+    color: black;
+  }
+  #download-button a{
+    text-decoration: none;
+    color: black;
+  }
+</style>
+
+<body>
+
+  <div id="stars"></div>
+
+  <button id="fly-button"><a href="index.html" class="button">Back to Website</a></button>
+
+<div class="container">
+  <button id="download-button"><a href="documents/CV.pdf" download="CV.pdf">Download CV</a></button>
+
+<div class="CV-preview"><img src="images/CV.jpg" height="1800" alt="CV preview"></div>
+</div>
+
+  <script>
+
+    function createStars() {
+    const starCount = 100; 
+    const container = document.getElementById("stars");
+  
+    for (let i = 0; i < starCount; i++) {
+      const star = document.createElement("div");
+      star.className = "blinking-star";
+      star.style.top = `${Math.random() * 100}%`;
+      star.style.left = `${Math.random() * 100}%`;
+      star.style.animationDelay = `${Math.random() * 5}s`;
+  
+      
+      const starSize = Math.random() * 1 + 1; 
+      star.style.width = `${starSize}px`;
+      star.style.height = `${starSize}px`;
+  
+      container.appendChild(star);
+    }
+  }
+  
+  createStars();
+  </script>
+
+</body>
+</html>

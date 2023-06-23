@@ -1,0 +1,442 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+	font-family: Sans-serif;
+  }
+
+ #stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .blinking-star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    animation: blinking 2s infinite;
+  }
+  
+  @keyframes blinking {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .nav {
+	background-color: black;
+	height: 6vh;
+	align-items: center;
+	justify-content: flex-end;
+	overflow: auto;
+	margin-right: 0px;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	color: rgb(0, 255, 213);;
+	border: 1px solid rgb(0, 255, 213);
+	padding: 8px;
+}
+
+.nav-item ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	border: 0px;
+	margin: 0px;
+	height: 6vh;
+	width: 100%;
+	justify-content: center;
+	gap: 50px;
+}
+
+.nav-item > ul a {
+	color: rgb(241, 10, 184);
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#navbar {
+	position: sticky;
+	top: 0;
+	background-color: black;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+	padding-right: 5px;
+}
+
+#navbar.visible {
+	opacity: 1;
+	z-index: 4;
+}
+
+.container {
+	max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.home-page {
+    height: 300px;
+    margin-top: 280px;
+	margin-bottom: 370px;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.info {
+      color: white;
+}
+
+.home-page p {
+	font-size: 1.2rem;
+	font-weight: lighter;
+	
+}
+
+.home-page h1 {
+	
+    font-weight: 800;
+}
+
+.camo-text {
+	font-weight: bold;
+	background: url('images/textbackground.png');
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.projecttitle{
+    display: flex;
+	font-size: 2rem;
+	justify-content: center;
+	align-items: center;
+    color: rgb(254, 255, 255);
+	margin-bottom:100px;
+}
+
+.project {
+	display: flex;
+	margin-bottom: 100px;
+	align-items: center;
+	gap: 5rem;
+}
+
+.project-description {
+   color:white;
+   text-align: justify;
+
+}
+
+.middle-picture {
+	order: 1;
+}
+
+.button1{
+	background-color: rgb(0, 255, 213);;
+	border: 0;
+	padding:8px;
+	font-weight:550;
+	font-size: 0.9rem;
+  }
+.button1:hover {
+	background-color: transparent;
+	color: rgb(241, 10, 184);
+	border:solid 1px rgb(0, 255, 213);;
+	padding: 7px;
+	
+  }
+
+.button2{
+	background-color: transparent;
+	color: rgb(0, 255, 213);;
+	border:solid 1px;
+	padding: 7px;
+	font-size: 0.9rem;
+	
+}
+.button2:hover {
+	color: black;
+	background-color: rgb(0, 255, 213);;
+	font-weight: 550;
+}
+
+.abouttitle p{
+	display: flex;
+	color: rgb(255, 255, 255);
+	margin-right: 0;
+	justify-content: center;
+	font-size: 2rem;
+	margin-top: 250px;
+	}
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto 1fr;
+	position: relative;
+	padding-top: 140px;
+	margin-bottom: 300px;
+	gap: 10px;
+	padding-top: 100px;
+	
+}
+.skills{
+	display: flex;
+	justify-content:left;
+	gap:10px;
+	margin-left: 5px;
+	
+}
+
+.profilepicture {
+	border: 1px solid;
+	border-color: rgb(253, 253, 253);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+.description {
+	text-align: justify;
+	color:white;
+	border-left: 1px solid;
+	border-bottom:1px solid;
+	border-color: rgb(0, 255, 213);
+	padding-left: 20px;
+}
+
+.phrase {
+	color: white;
+	font-size: 0.9rem;
+}
+
+#fly-button {
+	position: fixed;
+	font-weight: bold;
+	bottom: 20px;
+	right: 20px;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(0, 255, 213);
+	color: rgb(5, 5, 5);
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	z-index: 3;
+	
+  }
+  
+  #fly-button:hover {
+	transform: scale(1.1);
+	text-decoration: none;
+  }
+  #fly-button a{
+    text-decoration: 0;
+	color:black;
+  }
+
+ .contact-background {
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    background: url('images/footerbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.contact{
+	height: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1500px;
+	margin: 0px auto 0;
+	background-color: rgba(3, 3, 3, 0.5);
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-title{
+	display: flex-start;
+	color: blanchedalmond;
+	font-weight: 550;
+	font-size: 1.5rem;
+	margin-left: 30px;
+	margin-bottom: 100px;
+}
+
+
+
+.contact-list>ul li{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	padding-bottom: 20px;
+	color: azure;
+	font-size: 1rem;
+	gap:20px
+}
+
+.navigate-list li a{
+	text-decoration: 0;
+	color:azure;
+}
+.navigate-list li a:hover {
+	color: rgb(241, 10, 184);
+	font-weight: bold;
+}
+
+
+
+@media (max-width: 1000px) {
+	.project1 {
+		    display: flex;
+			flex-direction: column; 
+			gap:3rem;
+			}
+			.project-description {
+				max-width: 550px;
+				justify-content: center;
+					}
+
+.project2{
+	flex-direction: column;
+	gap:3rem;
+}
+.middle-picture{
+	order:0;
+}
+
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+    justify-content: center;
+	gap: 30px;
+}
+.contact {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+
+.profilepicture {
+	justify-self: center;
+}
+
+.contact-list ul li {
+
+	justify-content: center;
+	align-items: center;
+}
+.contact-title>p{
+	display:flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.contact-background {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	background-size: cover;
+   
+   }
+   
+.contact{
+	   height: auto;
+	   display: grid;
+	   background-color: rgba(3, 3, 3, 0.5);
+	   box-sizing: border-box;
+	   }
+}
+
+@media (max-width: 600px){
+	body {
+		margin: 0; 
+		padding: 0; 
+	  }
+	  
+	  .project img {
+		width: 100%; 
+		height: auto; 
+	  }
+}
+
+
+
+
+
+
+  
+
+
+
+ 
+
+  
+
+         
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
