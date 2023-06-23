@@ -19,42 +19,40 @@ function createStars() {
   }
   
   createStars();
-  
+
 
   var prevScrollPos = window.pageYOffset;
-var scrollThreshold = window.innerHeight * 0.3; 
-
-// Check initial scroll position on page load
-if (window.pageYOffset <= scrollThreshold) {
-  document.getElementById("navbar").classList.add("visible");
-}
-
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-
-  if (currentScrollPos > prevScrollPos) {
-    // Scrolling down
-    if (currentScrollPos >= scrollThreshold) {
-      document.getElementById("navbar").classList.remove("visible");
-    }
-  } else {
-    // Scrolling up
+  var scrollThreshold = window.innerHeight * 0.3; 
+  
+  // Check initial scroll position on page load
+  if (window.pageYOffset <= scrollThreshold) {
     document.getElementById("navbar").classList.add("visible");
   }
+  
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+  
+    if (currentScrollPos > prevScrollPos) {
+      // Scrolling down
+      if (currentScrollPos >= scrollThreshold) {
+        document.getElementById("navbar").classList.remove("visible");
+      }
+    } else {
+      // Scrolling up
+      document.getElementById("navbar").classList.add("visible");
+    }
+  
+    prevScrollPos = currentScrollPos;
+  };
+  
+  
+  function toggleNav() {
+    var navMenu = document.querySelector('.nav-item ul');
+    navMenu.classList.toggle('active');
+  }
 
-  prevScrollPos = currentScrollPos;
-};
 
-
-function toggleNav() {
-  var navMenu = document.querySelector('.nav-item ul');
-  navMenu.classList.toggle('active');
-}
-
-
-
-
-// Function to add/remove active class based on the active section
+  // Function to add/remove active class based on the active section
 function updateActiveSection() {
   var sections = document.querySelectorAll('.section');
   var navLinks = document.querySelectorAll('.nav-link');
