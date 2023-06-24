@@ -4,14 +4,15 @@
     padding: 0
 }
 
-.container{
-    width: 1200px;
+.container {
+	max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(102, 102, 99);
     height: 100vh;
-    margin: auto;
-    background-color: rgb(92, 91, 90);
-    position:center;
-    gap: 50px;
 }
+
+
+
 
 .dice {
     display: flex;
@@ -20,22 +21,26 @@
     align-items: center;
     gap: 100px;
     height: 600px;
-    
 }
 
 p {
     font-size: 2rem;
     color: azure;
+    
 }
 
 img{
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .roll-button {
+padding: 100px;
 display: flex;
 justify-content: center;
-padding: 100px;
+
+
 }
 
 button{
@@ -44,6 +49,18 @@ button{
     border-radius: 10px;
     border: 0;
     font-size: 1rem;
+
+}
+
+@media (max-width: 500px){
+    .dice {
+        gap: 30px;
+        height: 400px;
+    }
+    
+    .roll-button {
+        padding: 50px;
+    }
 
 }
 
