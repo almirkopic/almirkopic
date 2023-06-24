@@ -1,3 +1,5 @@
+//background-spam random stars
+
 function createStars() {
     const starCount = 100; 
     const container = document.getElementById("stars");
@@ -20,6 +22,7 @@ function createStars() {
   
   createStars();
 
+//nav bar optimization for scroling up/hide/show
 
   var prevScrollPos = window.pageYOffset;
   var scrollThreshold = window.innerHeight * 0.3; 
@@ -52,7 +55,8 @@ function createStars() {
   }
 
 
-  // Function to add/remove active class based on the active section
+  //adding active status to nav bar- color change
+
 function updateActiveSection() {
   var sections = document.querySelectorAll('.section');
   var navLinks = document.querySelectorAll('.nav-link');
@@ -78,7 +82,7 @@ window.addEventListener('scroll', function() {
   updateActiveSection();
 });
 
-// Initial check for active section on page load
+// Nav check for active section on page load-when loading/refres
 window.addEventListener('DOMContentLoaded', function() {
   updateActiveSection();
 });
@@ -91,6 +95,11 @@ var button = document.getElementById("fly-button");
     // Perform actions or handle the click event here
     console.log("Button clicked!");
   });
+
+//buttons link
+function redirectToWebsite(url) {
+  window.location.href = url;
+}
 
  
 
