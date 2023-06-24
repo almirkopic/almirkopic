@@ -89,10 +89,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.getElementById("fly-button").addEventListener("click", function() {
-  window.location.href = "./cvpreview";
-});
-
 //buttons link
 function redirectToWebsite(url) {
   window.location.href = url;
