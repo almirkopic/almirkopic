@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.getElementById("myButton").addEventListener("click", function() {
+document.getElementById("fly-button").addEventListener("click", function() {
   window.location.href = "./cvpreview";
 });
 
