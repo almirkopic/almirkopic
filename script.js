@@ -89,12 +89,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 
-var button = document.getElementById("fly-button");
-
-  button.addEventListener("click", function() {
-    // Perform actions or handle the click event here
-    console.log("Button clicked!");
-  });
+document.getElementById("myButton").addEventListener("click", function() {
+  window.location.href = "./cvpreview";
+});
 
 //buttons link
 function redirectToWebsite(url) {
