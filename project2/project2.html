@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AddToCart</title>
+	<link rel="stylesheet" type="text/css" href="styleproject2.css">
+</head>
+<body>
+
+	<h1>MINI-SHOP</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Sportswear</h2>
+
+			<div class="single-item">
+				<img src="img/sneakers.jpg">
+				<div class="si-content">
+					<h3>Sneakers</h3>
+					<p class="price">$150</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Add</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/tshirt.jpg">
+				<div class="si-content">
+					<h3>T-Shirt</h3>
+					<p class="price">$20</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Add</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/shorts.jpg">
+				<div class="si-content">
+					<h3>Shorts</h3>
+					<p class="price">$30</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Add</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2>Cart</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="scriptproject2.js"></script>
+</body>
+</html>
