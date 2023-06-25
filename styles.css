@@ -64,40 +64,37 @@ body {
 }
 
 .home-page {
-    
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
 	margin-bottom: 220px;
-	
-	
-}
-
-.info {
-    color: white;
-    z-index: 1;
-	
-}
-
-.home-page p {
-    font-size: 1.2rem;
-    font-weight: lighter;
+	width: fit-content; 
+  }
+  
+  .info {
+	color: white;
+	z-index: 1;
+  }
+  
+  .home-page p {
+	font-size: 1.2rem;
+	font-weight: lighter;
 	display: inline;
-}
-
-.home-page h1 {
-    font-weight: 800;
-}
-
-.camo-text {
-    font-weight: bold;
-    background: url('images/textbackground.png');
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+  }
+  
+  .home-page h1 {
+	font-weight: 800;
+  }
+  
+  .camo-text {
+	font-weight: bold;
+	background: url('images/textbackground.png');
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
 
 .projecttitle{
     display: flex;
