@@ -1,26 +1,4 @@
-//background-spam random stars
 
-function createStars() {
-    const starCount = 100; 
-    const container = document.getElementById("stars");
-  
-    for (let i = 0; i < starCount; i++) {
-      const star = document.createElement("div");
-      star.className = "blinking-star";
-      star.style.top = `${Math.random() * 100}%`;
-      star.style.left = `${Math.random() * 100}%`;
-      star.style.animationDelay = `${Math.random() * 5}s`;
-  
-      
-      const starSize = Math.random() * 1 + 1; 
-      star.style.width = `${starSize}px`;
-      star.style.height = `${starSize}px`;
-  
-      container.appendChild(star);
-    }
-  }
-  
-  createStars();
 
 //nav bar optimization for scroling up/hide/show
 
