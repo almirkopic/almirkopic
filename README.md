@@ -1,16 +1,19 @@
 ### Hi there 👋
 
-<!--
-**almirkopic/almirkopic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### About Me
 
-Here are some ideas to get you started:
+Hello! 👋 I'm [Almir], a passionate learner and aspiring software engineer. I'm currently focused on honing my skills in web development using EJS, JavaScript, Node.js, and React.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🌱 **Learning Journey:**
+I'm on a dynamic journey of self-improvement and discovery in the world of programming. I've been delving into the intricacies of front-end development with React, exploring the capabilities of Node.js for server-side scripting, and mastering the art of creating dynamic web pages with EJS.
+
+🚀 **Tech Stack:**
+- Frontend: React, HTML, CSS
+- Backend: Node.js, Express
+- Templating: EJS
+- Database: MongoDB
+
+🎯 **Goals:**
+My goal is to craft elegant and user-centric web applications that provide meaningful solutions and delightful experiences. I believe in continuous learning, embracing challenges, and staying up-to-date with the ever-evolving tech landscape.
+
+
