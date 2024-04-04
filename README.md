@@ -9,9 +9,9 @@ I'm on a dynamic journey of self-improvement and discovery in the world of progr
 
 🚀 **Tech Stack:**
 - Frontend: React, HTML, CSS
-- Backend: Node.js, Express
+- Backend: Node.js, Express JS
 - Templating: EJS
-- Database: MongoDB
+- Database: MongoDB,SQL,MYSQL
 
 🎯 **Goals:**
 My goal is to craft elegant and user-centric web applications that provide meaningful solutions and delightful experiences. I believe in continuous learning, embracing challenges, and staying up-to-date with the ever-evolving tech landscape.
