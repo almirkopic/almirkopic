@@ -22,6 +22,4 @@ Hi there! 👋
 
 
 
-### 🎯 Goals
 
-My goal is to craft elegant and user-centric web applications that provide meaningful solutions and delightful experiences. I believe in continuous learning, embracing challenges, and staying up-to-date with the ever-evolving tech landscape.
