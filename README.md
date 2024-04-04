@@ -10,13 +10,13 @@ I'm on a dynamic journey of self-improvement and discovery in the world of progr
 
 ### 🚀 Tech Stack
 
-🖥️ Frontend: ![React](https://img.icons8.com/color/48/000000/react-native.png), ![HTML](https://img.icons8.com/color/48/000000/html-5.png), ![CSS](https://img.icons8.com/color/48/000000/css3.png)
+ ![React](https://img.icons8.com/color/48/000000/react-native.png), ![HTML](https://img.icons8.com/color/48/000000/html-5.png), ![CSS](https://img.icons8.com/color/48/000000/css3.png),![Node.js](https://img.icons8.com/color/48/000000/nodejs.png), ![Express JS](https://img.icons8.com/color/48/000000/express.png), ![EJS](https://img.icons8.com/color/48/000000/ejs.png), ![MongoDB](https://img.icons8.com/color/48/000000/mongodb.png), ![SQL](https://img.icons8.com/color/48/000000/sql.png), ![MySQL](https://img.icons8.com/color/48/000000/mysql-logo.png)
 
-🔙 Backend: ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png), ![Express JS](https://img.icons8.com/color/48/000000/express.png)
+ 
 
-🛠️ Templating: ![EJS](https://img.icons8.com/color/48/000000/ejs.png)
 
-🗃️ Database: ![MongoDB](https://img.icons8.com/color/48/000000/mongodb.png), ![SQL](https://img.icons8.com/color/48/000000/sql.png), ![MySQL](https://img.icons8.com/color/48/000000/mysql-logo.png)
+
+
 
 ### 🎯 Goals
 
