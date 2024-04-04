@@ -6,7 +6,11 @@ Hi there! 👋
 
 ### 🌱 Learning Journey
 
-I'm on a dynamic journey of self-improvement and discovery in the world of programming. I've been delving into the intricacies of front-end development with React, exploring the capabilities of Node.js for server-side scripting, and mastering the art of creating dynamic web pages with EJS.
+- Frontend Craftsmanship: Exploring React.js to master the art of building captivating user interfaces.
+
+- Backend Exploration: Harnessing the potential of Node.js for robust server-side scripting.
+
+- Dynamic Web Development: Perfecting the creation of dynamic web pages with EJS, powered by JavaScript.
 
 ### 🚀 Tech Stack
 
