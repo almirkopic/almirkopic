@@ -2,17 +2,18 @@
 
 
 
-Hi there! 👋
+<div style="position: relative; text-align: center; color: white;">
+  <img src="https://raw.githubusercontent.com/almirkopic/almirkopic/main/cover.jpg" alt="Cover Image" style="width: 100%;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <h1>Hi there! 👋</h1>
+    <p>I'm Almir, a passionate learner and aspiring software engineer. I'm currently focused on honing my skills in web development.</p>
+    <h2>🌱 Learning Journey</h2>
+    <p>Frontend Craftsmanship: Exploring React.js to master building captivating user interfaces.</p>
+    <p>Backend Exploration: Harnessing Node.js for robust server-side scripting.</p>
+    <p>Dynamic Web Development: Perfecting creation of dynamic web pages with EJS, powered by JavaScript.</p>
+  </div>
+</div>
 
-### About Me
-
-👨‍💻 I'm [Almir], a passionate learner and aspiring software engineer. I'm currently focused on honing my skills in web development.
-
-### 🌱 Learning Journey
-
-- Frontend Craftsmanship: Exploring React.js to master the art of building captivating user interfaces.
-- Backend Exploration: Harnessing the potential of Node.js for robust server-side scripting.
-- Dynamic Web Development: Perfecting the creation of dynamic web pages with EJS, powered by JavaScript.
 
 ### 🚀 Tech Stack
 
