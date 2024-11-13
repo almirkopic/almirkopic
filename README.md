@@ -1,4 +1,4 @@
-![Cover Image](https://github.com/almirkopic/almirkopic/blob/cover.jpg)
+![Cover Image]([https://github.com/almirkopic/almirkopic/blob/cover.jpg](https://github.com/almirkopic/almirkopic/blob/main/cover.jpg))
 
 Hi there! 👋
 
