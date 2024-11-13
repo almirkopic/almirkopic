@@ -1,3 +1,5 @@
+![Cover Image](https://github.com/almirkopic/almirkopic/blob/cover.jpg)
+
 Hi there! 👋
 
 ### About Me
@@ -7,9 +9,7 @@ Hi there! 👋
 ### 🌱 Learning Journey
 
 - Frontend Craftsmanship: Exploring React.js to master the art of building captivating user interfaces.
-
 - Backend Exploration: Harnessing the potential of Node.js for robust server-side scripting.
-
 - Dynamic Web Development: Perfecting the creation of dynamic web pages with EJS, powered by JavaScript.
 
 ### 🚀 Tech Stack
