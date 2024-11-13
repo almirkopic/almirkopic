@@ -1,4 +1,5 @@
-![Cover Image](https://github.com/your-username/your-repo-name/blob/main/path-to-your-image.jpg)
+![Cover Image](https://github.com/almirkopic/almirkopic/raw/main/cover.jpg)
+
 
 Hi there! 👋
 
